@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="author" content="Softnio">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Device protection">
+        <!-- Fav Icon  -->
+        <link rel="shortcut icon" href="./assets/Daabo icon.png">
+        <!-- Page Title  -->
+        <title>Devices | Daabo</title>
+        <!-- StyleSheets  -->
+        <link rel="stylesheet" href="./assets/css/dashlite.css">
+        
+    </head>
+    
+    <body class="nk-body bg-lighter npc-general has-sidebar ">
+        <div class="nk-app-root">
+            <!-- main @s -->
+            <div class="nk-main ">
+                <!-- sidebar @s -->
+                <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+                    <div class="nk-sidebar-element nk-sidebar-head">
+                        <div class="nk-sidebar-brand">
+                            <a href="dashbaord.html" class="logo-link nk-sidebar-logo">
+                                
+                                
+                                <img class="logo-small logo-img logo-img-small" src="./assets/Daabo icon.png" srcset="./images/logo-small2x.png 2x" alt="logo-small">
+                            </a>
+                        </div>
+                        <div class="nk-menu-trigger mr-n2">
+                            <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                            <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                        </div>
+                    </div><!-- .nk-sidebar-element -->
+                    <div class="nk-sidebar-element">
+                        <div class="nk-sidebar-content">
+                            <div class="nk-sidebar-menu" data-simplebar>
+                                <ul class="nk-menu">
+                                    <li class="nk-menu-item">
+                                        <a href="./dashbaord.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span>
+                                            <span class="nk-menu-text">Dashboard</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="./payments.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-money"></em></span>
+                                            <span class="nk-menu-text">Payments</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="devices.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-bag-fill"></em></span>
+                                            <span class="nk-menu-text">Devices</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="./claims-and-requests.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-package-fill"></em></span>
+                                            <span class="nk-menu-text">Claims and Repairs</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    
+                                   
+                                    <li class="nk-menu-item">
+                                        <a href="./settings.html" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-opt-alt-fill"></em></span>
+                                            <span class="nk-menu-text">Settings</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    
+                                    <li class="nk-menu-heading">
+                                        <h6 class="overline-title text-primary-alt">Help Center</h6>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="getdaabo.com/faq" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-todo"></em></span>
+                                            <span class="nk-menu-text">FAQs</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item">
+                                        <a href="getdaabo.com/contact" target="_balnk" class="nk-menu-link">
+                                            <span class="nk-menu-icon"><em class="icon ni ni-msg"></em></span>
+                                            <span class="nk-menu-text">Contact Us</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    
+                                </ul><!-- .nk-menu -->
+                            </div><!-- .nk-sidebar-menu -->
+                        </div><!-- .nk-sidebar-content -->
+                    </div><!-- .nk-sidebar-element -->
+                </div>
+                <!-- sidebar @e -->
+                <!-- wrap @s -->
+                <div class="nk-wrap ">
+                    <!-- main header @s -->
+                    <div class="nk-header nk-header-fixed is-light">
+                        <div class="container-fluid">
+                            <div class="nk-header-wrap">
+                                <div class="nk-menu-trigger d-xl-none ml-n1">
+                                    <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                                </div>
+                                <div class="nk-header-brand d-xl-none">
+                                    <a href="./dashbaord.html" class="logo-link">
+                                        <img class="logo-light logo-img" src="./assets/Daabo icon.png" srcset="./images/logo2x.png 2x" alt="logo">
+                                        
+                                    </a>
+                                </div><!-- .nk-header-brand -->
+                                <div class="nk-header-search ml-3 ml-xl-0">
+                                    <em class="icon ni ni-search"></em>
+                                    <input type="text" class="form-control border-transparent form-focus-none" placeholder="Search anything">
+                                </div><!-- .nk-header-news -->
+                                <div class="nk-header-tools">
+                                    <ul class="nk-quick-nav">
+                                        
+                                        
+                                        <li class="dropdown user-dropdown">
+                                            <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                                <div class="user-toggle">
+                                                    <div class="user-avatar sm">
+                                                        <em class="icon ni ni-user-alt"></em>
+                                                    </div>
+                                                    <div class="user-info d-none d-xl-block">
+                                                        
+                                                        <div class="user-name dropdown-indicator">Abu Bin Ishityak</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                                <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                    <div class="user-card">
+                                                        <div class="user-avatar">
+                                                            <span>AB</span>
+                                                        </div>
+                                                        <div class="user-info">
+                                                            <span class="lead-text">Abu Bin Ishtiyak</span>
+                                                            <span class="sub-text">info@softnio.com</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-inner">
+                                                    <ul class="link-list">
+                                                        
+                                                        <li><a href="./settings.html"><em class="icon ni ni-setting-alt"></em><span>Setting</span></a></li>
+                                                        <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dropdown-inner">
+                                                    <ul class="link-list">
+                                                        <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- .nk-header-wrap -->
+                        </div><!-- .container-fliud -->
+                    </div>
+                    <!-- main header @e -->
+
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="nk-block-head nk-block-head-sm">
+                                    <div class="nk-block-between">
+                                        <div class="nk-block-head-content">
+                                            <h3 class="nk-block-title page-title">Devices</h3>
+                                        </div><!-- .nk-block-head-content -->
+                                        <div class="nk-block-head-content">
+                                            <div class="toggle-wrap nk-block-tools-toggle">
+                                                <a href="#" class="btn btn-icon btn-trigger toggle-expand mr-n1" data-target="pageMenu"><em class="icon ni ni-more-v"></em></a>
+                                                <div class="toggle-expand-content" data-content="pageMenu">
+                                                    <ul class="nk-block-tools g-3">
+                                                        <li>
+                                                            <div class="nk-block-head-content">
+                                                                <ul class="nk-block-tools gx-3">
+                                                                    <li class="order-md-last"><a data-toggle="modal" data-target="#modalForm" class="btn btn-white btn-dim btn-outline-primary"><span>Protect A Device</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="form-control-wrap">
+                                                                <div class="form-icon form-icon-right">
+                                                                    <em class="icon ni ni-search"></em>
+                                                                </div>
+                                                                <input type="text" class="form-control" id="default-04" placeholder="Quick search">
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="drodown">
+                                                                <a href="#" class="dropdown-toggle dropdown-indicator btn btn-outline-light btn-white" data-toggle="dropdown">Status</a>
+                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                    <ul class="link-list-opt no-bdr">
+                                                                        <li><a href="#"><span>New Items</span></a></li>
+                                                                        <li><a href="#"><span>Mobile Phones</span></a></li>
+                                                                        <li><a href="#"><span>iPads</span></a></li>
+                                                                        <li><a href="#"><span>Tablets</span></a></li>
+                                                                        <li><a href="#"><span>Laptops</span></a></li>
+                                                                        <li><a href="#"><span>Computers</span></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                       
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- .nk-block-head-content -->
+                                    </div><!-- .nk-block-between -->
+                                </div><!-- .nk-block-head -->
+                                <div class="nk-block">
+                                    <div class="nk-tb-list is-separate mb-3">
+                                        <div class="nk-tb-item nk-tb-head">
+                                           
+                                            <div class="nk-tb-col tb-col-sm"><span>Device Type</span></div>
+                                            <div class="nk-tb-col"><span>ID</span></div>
+                                            <div class="nk-tb-col"><span>Paying</span></div>
+                                            <div class="nk-tb-col"><span>Plan</span></div>
+                                            <div class="nk-tb-col tb-col-md"><span>Device Brand</span></div>
+                                            <div class="nk-tb-col tb-col-md"><span>Device Model</span></div>
+                                            <div class="nk-tb-col tb-col-md"><span>Users</span></div>
+                                            <div class="nk-tb-col nk-tb-col-tools">
+                                                <ul class="nk-tb-actions gx-1 my-n1">
+                                                    <li class="mr-n1">
+                                                        <div class="dropdown">
+                                                            <a class="dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .nk-tb-item -->
+                                        <div class="nk-tb-item">
+                                            
+                                            <div class="nk-tb-col tb-col-sm">
+                                                <span class="tb-product">
+                                                    
+                                                    <span class="title">Laptop</span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">100142725</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">₦ 1000</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">Monthly</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Hp</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Elitebok 840p</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Salome Frank</span>
+                                            </div>
+                                            <div class="nk-tb-col nk-tb-col-tools">
+                                                <ul class="nk-tb-actions gx-1 my-n1">
+                                                    <li class="mr-n1">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <ul class="link-list-opt no-bdr">
+                                                                   
+                                                                    <li><a href="#tranxDetails" data-toggle="modal"><em class="icon ni ni-eye"></em><span>View Device</span></a></li>
+
+                                                                    <li><a href="#"data-toggle="modal" data-target="#subscription-cancel"><em class="icon ni ni-trash"></em><span>Remove Device</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .nk-tb-item -->
+                                        <div class="nk-tb-item">
+                                            
+                                            <div class="nk-tb-col tb-col-sm">
+                                                <span class="tb-product">
+                                                   
+                                                    <span class="title">Mobile Phone</span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">100142725</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">₦ 8000</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">Annually</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Samsung</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">J40</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Jelli Juno</span>
+                                            </div>
+                                            <div class="nk-tb-col nk-tb-col-tools">
+                                                <ul class="nk-tb-actions gx-1 my-n1">
+                                                    <li class="mr-n1">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <ul class="link-list-opt no-bdr">
+                                                                    <li><a href="#" data-target="addProduct"><em class="icon ni ni-eye"></em><span>View Device</span></a></li>
+                                                                    <li><a href="#"><em class="icon ni ni-trash"></em><span>Remove Device</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .nk-tb-item -->
+                                        <div class="nk-tb-item">
+                                            
+                                            <div class="nk-tb-col tb-col-sm">
+                                                <span class="tb-product">
+                                                    
+                                                    <span class="title">iPad</span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">100142725</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">₦ 25,000</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">Annually</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Apple</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">iPad Air</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Paddy Dawa</span>
+                                            </div>
+                                            <div class="nk-tb-col nk-tb-col-tools">
+                                                <ul class="nk-tb-actions gx-1 my-n1">
+                                                    <li class="mr-n1">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <ul class="link-list-opt no-bdr">
+                                                                    <li><a href="#"><em class="icon ni ni-eye"></em><span>View Device</span></a></li>
+                                                                    <li><a href="#"><em class="icon ni ni-trash"></em><span>Remove Device</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .nk-tb-item -->
+                                        <div class="nk-tb-item">
+                                            
+                                            <div class="nk-tb-col tb-col-sm">
+                                                <span class="tb-product">
+                                                    
+                                                    <span class="title">Tablet</span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">100142725</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">₦ 2500</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">Monthly</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Nokia</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Nokia Tab</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Emma Granda</span>
+                                            </div>
+                                            <div class="nk-tb-col nk-tb-col-tools">
+                                                <ul class="nk-tb-actions gx-1 my-n1">
+                                                    <li class="mr-n1">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <ul class="link-list-opt no-bdr">
+                                                                    <li><a href="#"><em class="icon ni ni-eye"></em><span>View Device</span></a></li>
+                                                                    <li><a href="#"><em class="icon ni ni-trash"></em><span>Remove Device</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .nk-tb-item -->
+                                        <div class="nk-tb-item">
+                                            
+                                            <div class="nk-tb-col tb-col-sm">
+                                                <span class="tb-product">
+                                                    
+                                                    <span class="title">Computer</span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">100142725</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">₦ 100,000</span>
+                                            </div>
+                                            <div class="nk-tb-col">
+                                                <span class="tb-sub">Annually</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Hp</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Hp one</span>
+                                            </div>
+                                            <div class="nk-tb-col tb-col-md">
+                                                <span class="tb-sub">Solo Feard</span>
+                                            </div>
+                                            <div class="nk-tb-col nk-tb-col-tools">
+                                                <ul class="nk-tb-actions gx-1 my-n1">
+                                                    <li class="mr-n1">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <ul class="link-list-opt no-bdr">
+                                                                    <li><a href="#"><em class="icon ni ni-eye"></em><span>View Device</span></a></li>
+                                                                    <li><a href="#"><em class="icon ni ni-trash"></em><span>Remove Device</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .nk-tb-item -->
+                                        
+                                        
+                                    </div><!-- .nk-tb-list -->
+                                    <div class="card">
+                                        <div class="card-inner">
+                                            <div class="nk-block-between-md g-3">
+                                                <div class="g">
+                                                    <ul class="pagination justify-content-center justify-content-md-start">
+                                                        <li class="page-item"><a class="page-link" href="#"><em class="icon ni ni-chevrons-left"></em></a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><span class="page-link"><em class="icon ni ni-more-h"></em></span></li>
+                                                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#"><em class="icon ni ni-chevrons-right"></em></a></li>
+                                                    </ul><!-- .pagination -->
+                                                </div>
+                                                <div class="g">
+                                                    <div class="pagination-goto d-flex justify-content-center justify-content-md-start gx-3">
+                                                        <div>Page</div>
+                                                        <div>
+                                                            <select class="form-select form-select-sm" data-search="on" data-dropdown="xs center">
+                                                                <option value="page-1">1</option>
+                                                                <option value="page-2">2</option>
+                                                                <option value="page-4">4</option>
+                                                                <option value="page-5">5</option>
+                                                                <option value="page-6">6</option>
+                                                                <option value="page-7">7</option>
+                                                                <option value="page-8">8</option>
+                                                                <option value="page-9">9</option>
+                                                                <option value="page-10">10</option>
+                                                                <option value="page-11">11</option>
+                                                                <option value="page-12">12</option>
+                                                                <option value="page-13">13</option>
+                                                                <option value="page-14">14</option>
+                                                                <option value="page-15">15</option>
+                                                                <option value="page-16">16</option>
+                                                                <option value="page-17">17</option>
+                                                                <option value="page-18">18</option>
+                                                                <option value="page-19">19</option>
+                                                                <option value="page-20">20</option>
+                                                            </select>
+                                                        </div>
+                                                        <div>OF 102</div>
+                                                    </div>
+                                                </div><!-- .pagination-goto -->
+                                            </div><!-- .nk-block-between -->
+                                        </div>
+                                    </div>
+                                </div><!-- .nk-block -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+                            <div class="nk-footer-copyright"> &copy; 2021 Daabo
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+
+    <!-- Modal Default -->
+    <div class="modal fade" tabindex="-1" id="tranxDetails">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                    <em class="icon ni ni-cross"></em>
+                </a>
+                <div class="modal-body modal-body-md">
+                    <div class="nk-modal-head mb-3 mb-sm-5">
+                        <h4 class="nk-modal-title title">Laptop</h4>
+                    </div>
+                    <div class="nk-tnx-details">
+                        <div class="nk-block-between flex-wrap g-3">
+                            <div class="nk-tnx-type">
+                                
+                                <div class="nk-tnx-type-text">
+                                    <h5 class="title">HP</h5>
+                                    <h6 class="title">Elitebok</h6>
+                                    <span class="sub-text mt-n1">840p</span>
+                                    <span class="sub-text mt-n1">15 Oct, 2019 09:45 PM</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="row gy-3">
+                           
+                            <div class="col-lg-6">
+                                <span class="sub-text">Device ID</span>
+                                <span class="caption-text text-break">100142725</span>
+                            </div> 
+                            <div class="col-lg-6">
+                                <span class="sub-text">Device IMEI/Serial Number</span>
+                                <span class="caption-text text-break">NIY9TB2JG73YWLXPYM2U8HR</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <span class="sub-text">Date Purchased </span>
+                                <span class="caption-text">13/07/2019</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <span class="sub-text">Plan</span>
+                                <span class="caption-text">Montly</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <span class="sub-text">Device Value</span>
+                                <span class="caption-text">₦20,000 - ₦100,001</span>
+                            </div>
+                        </div><!-- .row -->
+                        
+                        <div class="row gy-3">
+                           
+                            <div class="col-lg-12">
+                                <span class="sub-text">Device Condition</span>
+                                <span class="caption-text">Has a slight crack</span>
+                            </div> 
+                            <div class="col-lg-12">
+                                <span class="sub-text">User Name</span>
+                                <span class="caption-text">Balala Musa</span>
+                            </div> 
+                            <div class="col-lg-12">
+                                <span class="sub-text">User Phone Number</span>
+                                <span class="caption-text">0856789543</span>
+                            </div>
+                        </div><!-- .row -->
+                    </div><!-- .nk-tnx-details -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- .modal -->
+
+    <!-- @@Modal - Remove Device @s -->
+    <div class="modal fade" tabindex="-1" id="subscription-cancel">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><em class="icon ni ni-cross"></em></a>
+                <div class="modal-body modal-body-md">
+                    <h4 class="nk-modal-title title">Remove Device</h4>
+                    <p><strong>Are you sure you want to remove this device?</strong></p>
+                    <p>The device would lose its protection. </p>
+                    <div class="form">
+                        <div class="form-group">
+                            <label class="form-label">Enter your password to confirm</label>
+                            <div class="form-control-wrap">
+                                <input type="password" class="form-control" placeholder="*********">
+                            </div>
+                            <div class="form-note">
+                                <span>You'll receieve confirmation email once the device has been successful removed.</span>
+                            </div>
+                        </div>
+                        <ul class="align-center flex-wrap g-3">
+                            <li>
+                                <button class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#subscription-cancel-confirmed">Remove Device</button>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-light" data-dismiss="modal">Never mind, don't cancel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- .modal-content -->
+        </div><!-- .modla-dialog -->
+    </div>
+    <!-- .modal -->
+    
+
+    <!-- @@Modal - Subscription Cancle Confirmed @s -->
+    <div class="modal fade" tabindex="-1" id="subscription-cancel-confirmed">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body modal-body-md text-center">
+                    <div class="nk-modal">
+                        <em class="nk-modal-icon icon icon-circle icon-circle-xxl ni ni-check bg-success-dim text-success"></em>
+                        <h4 class="nk-modal-title">Successfully Removed</h4>
+                        <div class="nk-modal-text">
+                            <p>We sent you a confirmation email <strong>(this may take up to 3 hours to receive)</strong>.</p>
+                            
+                        </div>
+                        <div class="nk-modal-action-lg">
+                            <a href="#" class="btn btn-mw btn-light" data-dismiss="modal">Return</a>
+                        </div>
+                    </div>
+                </div><!-- .modal-body -->
+                
+            </div><!-- .modal-content -->
+        </div><!-- .modla-dialog -->
+    </div>
+    <!-- .modal -->
+
+    <!-- Protect device form modal-->
+    <div class="modal fade zoom" tabindex="-1" id="modalForm">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add a device</h5>
+                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                        <em class="icon ni ni-cross"></em>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <form action="#" class="form-validate is-alter">
+                        <div class="form-group">
+                            <label class="form-label" for="device-user-name">User Name</label>
+                            <div class="form-control-wrap">
+                                <input type="text" class="form-control" id="device-user-name" placeholder="Name of device user" required>
+                            </div>
+                        </div> 
+                        <div class="form-group">
+                            <label class="form-label" for="device-user-number">User Phone Number</label>
+                            <div class="form-control-wrap">
+                                <input type="number" class="form-control" id="device-user-number" placeholder="Phone number of device user" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="device-type">Select Device Type</label>
+                            <div class="form-control-wrap">
+                                <select class="form-select form-control form-control-lg" id="device-type" required>
+                                    <option value="default_option">Mobile Phone</option>
+                                    <option value="option_select_name">iPad</option>
+                                    <option value="option_select_name">Tablet</option>
+                                    <option value="option_select_name">Laptop</option>
+                                    <option value="option_select_name">Desktop Computer</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="device-brand">Device Brand</label>
+                            <div class="form-control-wrap">
+                                <input type="text" class="form-control" id="device-brand" placeholder="E.g Samsung" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="device-model">Device Model</label>
+                            <div class="form-control-wrap">
+                                <input type="text" class="form-control" id="device-model" placeholder="E.g iPhone 13" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="imei-serial-number">Enter IMEI/Serial Number</label>
+                            <div class="form-control-wrap">
+                                <input type="text" class="form-control" id="imei-serial-number" required placeholder="Check IMEI withh *#06#">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Date Purchased</label>
+                            <div class="form-control-wrap">
+                                <input type="text" class="form-control date-picker">
+                            </div>
+                            <div class="form-note">Date format <code>mm/dd/yyyy</code></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="device-condition">Device Condition</label>
+                            <div class="form-control-wrap">
+                                <textarea class="form-control no-resize" id="device-condition">Tell us about the device</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="cost-of-device">Cost Of Device</label>
+                            <div class="form-control-wrap">
+                                <select class="form-select form-control form-control-lg" id="cost-of-device" required>
+                                    <option value="default_option">₦20,000 - ₦100,000</option>
+                                    <option value="option_select_name">₦100,001 - ₦350,000</option>
+                                    <option value="option_select_name">₦350,001 - ₦600,000</option>
+                                    <option value="option_select_name">₦600,001 and above</option>
+                                </select>
+                            </div>
+                        </div> 
+                        <div class="form-group">
+                            <label class="form-label" for="cost-of-device">Select Plan</label>
+                            <div class="form-control-wrap">
+                                <select class="form-select form-control form-control-lg" id="payment-plan" required>
+                                    <option value="default_option">Monthly </option>
+                                    <option value="option_select_name">Annually</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-lg btn-primary">Protect Device</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Modal Tabs -->
+
+
+    <!-- JavaScript -->
+    <script src="./assets/js/bundle.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
