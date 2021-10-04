@@ -6836,9 +6836,9 @@ input[type="radio"]:checked ~ label { cursor: default; }
 
 .ni-notify:before { content: ""; }
 
-.ni-dashboard:before { content: ""; }
+.ni-index:before { content: ""; }
 
-.ni-dashboard-fill:before { content: ""; }
+.ni-index-fill:before { content: ""; }
 
 .ni-grid-sq:before { content: ""; }
 
@@ -14603,7 +14603,7 @@ p > span > .icon.ni { vertical-align: middle; }
 
 .nk-code-preview-box { display: block; color: #8094ae; padding: .15rem 1.25rem; border-right: 1px solid #e5e9f2; }
 
-.dashboard-preview { height: 200px; justify-content: center; }
+.index-preview { height: 200px; justify-content: center; }
 
 .dropdown-preview .dropdown-menu { position: static; display: block; }
 
